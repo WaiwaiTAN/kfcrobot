@@ -1,0 +1,25 @@
+\documentclass[degree=course, language=english, openright, twoside]{sjtuthesis}
+\usepackage{sjtuthesis}
+\graphicspath{{figure/}}
+\DeclareGraphicsExtensions{.pdf,.eps,.png,.jpg,.jpeg}
+\addbibresource{bib/thesis.bib}
+\input{tex/info}
+\begin{document}
+    \maketitle
+
+    \frontmatter
+    
+    \input{tex/abstract}
+
+    \tableofcontents
+    \listoffigures
+    \listoftables
+    
+    \input{tex/nomenclature.tex}
+
+    \mainmatter
+    % TODO:正文
+
+    \appendix
+    % TODO:附录
+\end{document}
