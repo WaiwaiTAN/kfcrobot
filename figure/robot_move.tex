@@ -1,0 +1,17 @@
+\begin{tikzpicture}[node distance=5cm]
+    \node (track) [startstop] {收到运动轨迹信息};
+    \node (get_angles) [io, right of=track, align=center] {提取下一时刻 \\ 各个关节位置};
+    \node (move) [process, right of=get_angles, align=center] {控制各个关节 \\ 向目标位置运动};
+    \node (finish) [decision, right of=move, align=center] {是否到达 \\ 轨迹终点};
+    \node (notify) [startstop, right of=finish, align=center] {通知上位机已到 \\ 达轨迹终点};
+    \node (anc_one) [above of=finish, yshift=-3cm] {};
+    \node (anc_two) [above of=get_angles, yshift=-3cm] {};
+    %连接具体形状
+    \draw [arrow] (track) -- (get_angles);
+    \draw [arrow] (get_angles) -- (move);
+    \draw [arrow] (move) -- (finish);
+    \draw [arrow] (finish) -- node [anchor=north] {是} (notify);
+    \draw [arrow] (finish) -- (anc_one);
+    \draw [arrow] (anc_one) -- node [anchor=south] {不论是否} (anc_two);
+    \draw [arrow] (anc_two) -- (get_angles); 
+\end{tikzpicture}

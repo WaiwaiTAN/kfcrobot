@@ -1,0 +1,30 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}引言}{1}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}立项背景}{1}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}项目任务书}{1}{section.1.2}% 
+\contentsline {subsection}{\numberline {1.2.1}题目：面向肯德基的餐食分装传送装置}{1}{subsection.1.2.1}% 
+\contentsline {subsection}{\numberline {1.2.2}项目方案简介}{1}{subsection.1.2.2}% 
+\contentsline {subsection}{\numberline {1.2.3}项目预期目标}{1}{subsection.1.2.3}% 
+\contentsline {subsection}{\numberline {1.2.4}任务}{2}{subsection.1.2.4}% 
+\contentsline {subsection}{\numberline {1.2.5}成果呈现方式}{2}{subsection.1.2.5}% 
+\contentsline {subsection}{\numberline {1.2.6}项目起止时间：2019.9.27至2020.1.11}{2}{subsection.1.2.6}% 
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}功能分解和总体设计思路}{3}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}功能分解}{3}{section.2.1}% 
+\contentsline {subsection}{\numberline {2.1.1}接收和分析指令}{3}{subsection.2.1.1}% 
+\contentsline {subsection}{\numberline {2.1.2}夹取不同的工件}{3}{subsection.2.1.2}% 
+\contentsline {subsection}{\numberline {2.1.3}移动工件}{3}{subsection.2.1.3}% 
+\contentsline {section}{\numberline {2.2}运动转换的基本功能和传动、减速机构的选型}{4}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}运动类型的转化}{4}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.2}机构选型}{4}{subsection.2.2.2}% 
+\contentsline {section}{\numberline {2.3}工作流程}{4}{section.2.3}% 
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}机电控制系统}{7}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}电机选型}{7}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}驱动器选择}{9}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}步进电机驱动}{9}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.2}直流电机驱动}{9}{subsection.3.2.2}% 
+\contentsline {section}{\numberline {3.3}电源选择}{9}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}供DM542驱动器}{9}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}供DM542C驱动器}{10}{subsection.3.3.2}% 
+\contentsline {subsection}{\numberline {3.3.3}供L298N驱动器}{10}{subsection.3.3.3}% 
+\contentsline {section}{\numberline {3.4}传感器选择}{10}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}控制板选择}{11}{section.3.5}% 

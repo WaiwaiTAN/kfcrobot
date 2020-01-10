@@ -1,0 +1,26 @@
+\begin{tikzpicture}[node distance=2cm]
+    \node (order) [startstop] {顾客下单};
+    \node (get_msg) [io, below of=order] {提取工件种类、位置信息};
+    \node (move1) [process, below of=get_msg, align=center] {控制末端执行机构运动到 \\ 工件摆放位置};
+    \node (get) [process, below of=move1] {夹取工件};
+    \node (move2) [process, below of= get, align=center] {控制末端执行机构运动到 \\ 工件目的地};
+    \node (place) [process, below of= move2] {放置工件};
+    \node (finish) [decision, below of=place, align=center, yshift=-1cm] {判断是否 \\ 移动完毕};
+    \node (left) [decision, right of=finish, align=center, xshift=3cm] {判断是否还有 \\ 剩余工件要移动};
+    \node (notify) [startstop, below of=finish, yshift=-1.5cm] {通知顾客取单};
+    \node (not_notify) [startstop, right of=notify, align=center, xshift=3cm] {等待工作人员 \\ 通知顾客取单};
+    \node (reset) [startstop, below of=notify] {机械臂返回初始位置};
+    %连接具体形状
+    \draw [arrow](order) -- (get_msg);
+    \draw [arrow](get_msg) -- (move1);
+    \draw [arrow](move1) -- (get);
+    \draw [arrow](get) -- (move2);
+    \draw [arrow](move2) -- (place);
+    \draw [arrow](place) -- (finish);
+    \draw [arrow](finish) -- node[anchor=east] {是} (notify);
+    \draw [arrow](finish) -- node[anchor=north] {否} (left);
+    \draw [arrow](left) |- node[anchor=west] {是} (get_msg);
+    \draw [arrow](left) -- node[anchor=west] {否} (not_notify);
+    \draw [arrow](notify) -- (reset);
+    \draw [arrow](not_notify) |- (reset);
+\end{tikzpicture}
