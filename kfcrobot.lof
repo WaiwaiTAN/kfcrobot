@@ -6,14 +6,25 @@
 \contentsline {figure}{\numberline {2--3}{\ignorespaces 机械臂运动流程图}}{5}{figure.caption.10}% 
 \contentsline {figure}{\numberline {2--4}{\ignorespaces 本装置的总工作流程图}}{5}{figure.caption.11}% 
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {3--1}{\ignorespaces 86步进电机}}{8}{figure.caption.12}% 
-\contentsline {figure}{\numberline {3--2}{\ignorespaces 42步进减速电机}}{8}{figure.caption.13}% 
-\contentsline {figure}{\numberline {3--3}{\ignorespaces 直流有刷电机}}{8}{figure.caption.14}% 
-\contentsline {figure}{\numberline {3--4}{\ignorespaces DM542}}{9}{figure.caption.15}% 
-\contentsline {figure}{\numberline {3--5}{\ignorespaces DM542C}}{9}{figure.caption.15}% 
-\contentsline {figure}{\numberline {3--6}{\ignorespaces L298N}}{9}{figure.caption.15}% 
-\contentsline {figure}{\numberline {3--7}{\ignorespaces 250W电源}}{9}{figure.caption.16}% 
-\contentsline {figure}{\numberline {3--8}{\ignorespaces 100W电源}}{10}{figure.caption.17}% 
-\contentsline {figure}{\numberline {3--9}{\ignorespaces 12V电源}}{10}{figure.caption.18}% 
-\contentsline {figure}{\numberline {3--10}{\ignorespaces 压力传感器}}{11}{figure.caption.19}% 
-\contentsline {figure}{\numberline {3--11}{\ignorespaces arduino UNO}}{11}{figure.caption.20}% 
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {4--1}{\ignorespaces matlab建模}}{10}{figure.caption.13}% 
+\contentsline {figure}{\numberline {4--2}{\ignorespaces Matlab输出扭矩}}{10}{figure.caption.14}% 
+\contentsline {figure}{\numberline {4--3}{\ignorespaces 不同长度三杆组合分析}}{11}{figure.caption.15}% 
+\contentsline {figure}{\numberline {4--4}{\ignorespaces 软件蜗杆的应力与扭矩}}{12}{figure.caption.16}% 
+\contentsline {figure}{\numberline {4--5}{\ignorespaces 改进前正应力}}{12}{figure.caption.17}% 
+\contentsline {figure}{\numberline {4--6}{\ignorespaces 正应力}}{13}{figure.caption.18}% 
+\contentsline {figure}{\numberline {4--7}{\ignorespaces 切应力}}{13}{figure.caption.19}% 
+\contentsline {figure}{\numberline {4--8}{\ignorespaces 拉伸位移}}{13}{figure.caption.20}% 
+\contentsline {figure}{\numberline {4--9}{\ignorespaces ROS环境搭建}}{14}{figure.caption.21}% 
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {5--1}{\ignorespaces 86步进电机}}{16}{figure.caption.22}% 
+\contentsline {figure}{\numberline {5--2}{\ignorespaces 42步进减速电机}}{16}{figure.caption.23}% 
+\contentsline {figure}{\numberline {5--3}{\ignorespaces 直流有刷电机}}{16}{figure.caption.24}% 
+\contentsline {figure}{\numberline {5--4}{\ignorespaces DM542}}{17}{figure.caption.25}% 
+\contentsline {figure}{\numberline {5--5}{\ignorespaces DM542C}}{17}{figure.caption.25}% 
+\contentsline {figure}{\numberline {5--6}{\ignorespaces L298N}}{17}{figure.caption.25}% 
+\contentsline {figure}{\numberline {5--7}{\ignorespaces 250W电源}}{17}{figure.caption.26}% 
+\contentsline {figure}{\numberline {5--8}{\ignorespaces 100W电源}}{18}{figure.caption.27}% 
+\contentsline {figure}{\numberline {5--9}{\ignorespaces 12V电源}}{18}{figure.caption.28}% 
+\contentsline {figure}{\numberline {5--10}{\ignorespaces 压力传感器}}{19}{figure.caption.29}% 
+\contentsline {figure}{\numberline {5--11}{\ignorespaces arduino UNO}}{19}{figure.caption.30}% 

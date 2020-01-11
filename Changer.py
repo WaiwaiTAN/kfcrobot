@@ -20,16 +20,26 @@ class Changer(object):
                     break
 
         print('These are all the filenames which are not support by xletax :')
-        print(self.chiallfiles)
+        suffixs = []
+        for filename in self.chiallfiles:
+            name, suffix = filename.split('.')
+            print(name)
+            suffixs.append(suffix)
+
+
+        for suffix in suffixs:
+            ch = input()
+            self.newnames.append(ch + '.' + suffix)
+
         print('Are you sure to rename them to random names and check and replace all the refferences of them in the files in this folder into their new names? (yes/not)')
         f=open(os.path.join(path+'/rename.sh'), 'w+')
-        for s in self.chiallfiles:
-            f.write('sed -i \"s/' + s + '/size/g" `grep ' + s +' -rl ./`\n')
+        for index in range(len(self.chiallfiles)):
+            f.write('sed -i \"s/' + self.chiallfiles[index] + '/' + self.newnames[index] + '/g" `grep ' + self.chiallfiles[index] +' -rl ./`\n')
 
         f.close()
-        ans = input()
-        if not (ans == 'yes' or ans == 'y' or ans == 'Y' or ans == 'Yes'):
-            exit(0)
+        # ans = input()
+        # if not (ans == 'yes' or ans == 'y' or ans == 'Y' or ans == 'Yes'):
+        exit(0)
 
     def make_new_name(self):
         s = string.ascii_lowercase
@@ -91,14 +101,14 @@ class Changer(object):
 if __name__ == '__main__':
     dirname, filename = os.path.split(os.path.abspath(sys.argv[0])) 
     chg = Changer(dirname)
-    chg.make_new_name()
+    # chg.make_new_name()
 
-    for i,j,k in os.walk(dirname):     
-        for filename in k:
-            filename = i+'\\' + filename
-            if filename == sys.argv[0]:
-                break    
-            chg.check(filename)
+    # for i,j,k in os.walk(dirname):     
+    #     for filename in k:
+    #         filename = i+'\\' + filename
+    #         if filename == sys.argv[0]:
+    #             break    
+    #         chg.check(filename)
 
-    print(chg.chiallfiles)
-    print(chg.newnames)
+    # print(chg.chiallfiles)
+    # print(chg.newnames)

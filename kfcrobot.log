@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.10.6)  11 JAN 2020 06:41
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.10.6)  11 JAN 2020 15:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2486,15 +2486,17 @@ File: sjtu-logo.pdf Graphic file (type pdf)
 <use sjtu-logo.pdf>
  [5
 
-] [6
-
-] (./kfcrobot.lof)
+]
+File: sjtu-logo.pdf Graphic file (type pdf)
+<use sjtu-logo.pdf>
+ [6] (./kfcrobot.lof)
 \tf@lof=\write7
 \openout7 = `kfcrobot.lof'.
 
 File: sjtu-logo.pdf Graphic file (type pdf)
 <use sjtu-logo.pdf>
  [7
+
 
 ] [8
 
@@ -2581,7 +2583,7 @@ File: sjtu-logo.pdf Graphic file (type pdf)
 <use sjtu-logo.pdf>
 [3
 
-] (./figure/robot_move.tex) (./figure/work_flow.tex)) (./tex/control.tex
+] (./figure/robot_move.tex) (./figure/work_flow.tex)) (./tex/design.tex
 File: sjtu-logo.pdf Graphic file (type pdf)
 <use sjtu-logo.pdf>
  [4]
@@ -2591,10 +2593,87 @@ File: sjtu-logo.pdf Graphic file (type pdf)
 
 ]
 第三章
+) (./tex/software_analysising.tex
+File: sjtu-logo.pdf Graphic file (type pdf)
+<use sjtu-logo.pdf>
+ [7] [8
+
+]
+第四章
+
+Package fontspec Info: Could not resolve font "SimSun/BI" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: Could not resolve font "SimSun/B" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: Could not resolve font "SimSun/I" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: Font family 'SimSun(1)' created for font 'SimSun' with
+(fontspec)             options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"SimSun/OT:script=hani;language=DFLT;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+File: figure/matlab_modeling.png Graphic file (type bmp)
+<figure/matlab_modeling.png>
+
+Overfull \hbox (9.95845pt too wide) in paragraph at lines 65--66
+ [][] 
+ []
+
+File: figure/matlab_output_torque.jpg Graphic file (type bmp)
+<figure/matlab_output_torque.jpg>
+File: figure/analysis_of_three-par_combinations_of_different_lengths.jpg Graphic file (type bmp)
+<figure/analysis_of_three-par_combinations_of_different_lengths.jpg>
+File: sjtu-logo.pdf Graphic file (type pdf)
+<use sjtu-logo.pdf>
+[9]
+File: sjtu-logo.pdf Graphic file (type pdf)
+<use sjtu-logo.pdf>
+ [10]
+File: sjtu-logo.pdf Graphic file (type pdf)
+<use sjtu-logo.pdf>
+ [11]
+File: figure/stress_and_torque_of_worm.png Graphic file (type bmp)
+<figure/stress_and_torque_of_worm.png>
+File: figure/normal_stress_before_improvement.png Graphic file (type bmp)
+<figure/normal_stress_before_improvement.png>
+File: figure/normal_stress.jpg Graphic file (type bmp)
+<figure/normal_stress.jpg>
+File: figure/shear_stress.png Graphic file (type bmp)
+<figure/shear_stress.png>
+File: figure/tensile_displacement.png Graphic file (type bmp)
+<figure/tensile_displacement.png>
+File: sjtu-logo.pdf Graphic file (type pdf)
+<use sjtu-logo.pdf>
+ [12]
+File: sjtu-logo.pdf Graphic file (type pdf)
+<use sjtu-logo.pdf>
+ [13]
+File: figure/ros_environment_setup.jpg Graphic file (type bmp)
+<figure/ros_environment_setup.jpg>
+) (./tex/control.tex
+File: sjtu-logo.pdf Graphic file (type pdf)
+<use sjtu-logo.pdf>
+ [14]
+第五章
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--16
 
  []
+
+
+LaTeX Font Warning: Font shape `TU/SimSun(1)/bx/n' undefined
+(Font)              using `TU/SimSun(1)/m/n' instead on input line 18.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 37--38
@@ -2603,7 +2682,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
 
 Overfull \hbox (105.52916pt too wide) in paragraph at lines 39--48
-[]\TU/SimSun(0)/m/n/10.53937 综 上，|  电 机 部 分 的 选 型 如 下\TU/XITS(0)/m/n/10.53937 : [] 
+[]\TU/SimSun(1)/m/n/10.53937 综 上，|  电 机 部 分 的 选 型 如 下\TU/XITS(0)/m/n/10.53937 : [] 
  []
 
 
@@ -2622,7 +2701,9 @@ File: figure/stepmotor42.png Graphic file (type bmp)
 <figure/stepmotor42.png>
 File: sjtu-logo.pdf Graphic file (type pdf)
 <use sjtu-logo.pdf>
-[7]
+[15
+
+]
 File: figure/arduino.png Graphic file (type bmp)
 <figure/arduino.png>
 
@@ -2632,9 +2713,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
 File: sjtu-logo.pdf Graphic file (type pdf)
 <use sjtu-logo.pdf>
-[8]
+[16]
 Overfull \hbox (3402.0574pt too wide) in paragraph at lines 99--108
-[]\TU/SimSun(0)/m/n/10.53937 具 体 参 数：| [] 
+[]\TU/SimSun(1)/m/n/10.53937 具 体 参 数：| [] 
  []
 
 
@@ -2644,7 +2725,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--108
 
 
 Overfull \hbox (3402.0574pt too wide) in paragraph at lines 111--120
-[]\TU/SimSun(0)/m/n/10.53937 具 体 参 数：| [] 
+[]\TU/SimSun(1)/m/n/10.53937 具 体 参 数：| [] 
  []
 
 
@@ -2654,7 +2735,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--120
 
 
 Overfull \hbox (3402.0574pt too wide) in paragraph at lines 125--133
-[]\TU/SimSun(0)/m/n/10.53937 具 体 参 数：| [] 
+[]\TU/SimSun(1)/m/n/10.53937 具 体 参 数：| [] 
  []
 
 File: figure/DM542.png Graphic file (type bmp)
@@ -2672,7 +2753,7 @@ File: figure/powersource250w.png Graphic file (type bmp)
 <figure/powersource250w.png>
 File: sjtu-logo.pdf Graphic file (type pdf)
 <use sjtu-logo.pdf>
-[9]
+[17]
 File: figure/powersource100.png Graphic file (type bmp)
 <figure/powersource100.png>
 File: figure/powersource12v.png Graphic file (type bmp)
@@ -2683,16 +2764,16 @@ File: figure/arduino.png Graphic file (type bmp)
 <figure/arduino.png>
 File: sjtu-logo.pdf Graphic file (type pdf)
 <use sjtu-logo.pdf>
- [10]) 
+ [18]) 
 AED: pageslts setting LastPage 
 File: sjtu-logo.pdf Graphic file (type pdf)
 <use sjtu-logo.pdf>
-[11]
+[19]
 \tf@thm=\write9
 \openout9 = `kfcrobot.thm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 30.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 30.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 31.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 31.
 \c@pagesLTS.arabic.1.local.count=\count566
  
 AED: pageslts setting VeryLastPage via AfterLastShipout 
@@ -2704,10 +2785,10 @@ Package pageslts Info: Total number of pages is odd.
 
 
 (./kfcrobot.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 30.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 30.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 31.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 31.
 Package rerunfilecheck Info: File `kfcrobot.out' has not changed.
-(rerunfilecheck)             Checksum: BB14150192C694F7AED87667C531AA45.
+(rerunfilecheck)             Checksum: 4EF9C5B610A8BB46676A77DD4B8C0759.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2715,14 +2796,19 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package logreq Info: Writing requests to 'kfcrobot.run.xml'.
 \openout1 = `kfcrobot.run.xml'.
 
- ) 
+ )
+(\end occurred inside a group at level 2)
+
+### simple group (level 2) entered at line 146 ({)
+### simple group (level 1) entered at line 60 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 57677 strings out of 492922
- 1153055 string characters out of 6136751
- 1772293 words of memory out of 5000000
- 60770 multiletter control sequences out of 15000+600000
- 537587 words of font info for 162 fonts, out of 8000000 for 9000
+ 57858 strings out of 492922
+ 1162755 string characters out of 6136751
+ 1772792 words of memory out of 5000000
+ 60934 multiletter control sequences out of 15000+600000
+ 537579 words of font info for 161 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  75i,16n,111p,872b,2766s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on kfcrobot.pdf (25 pages).
+Output written on kfcrobot.pdf (33 pages).

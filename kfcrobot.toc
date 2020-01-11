@@ -17,14 +17,21 @@
 \contentsline {subsection}{\numberline {2.2.1}运动类型的转化}{4}{subsection.2.2.1}% 
 \contentsline {subsection}{\numberline {2.2.2}机构选型}{4}{subsection.2.2.2}% 
 \contentsline {section}{\numberline {2.3}工作流程}{4}{section.2.3}% 
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}机电控制系统}{7}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}电机选型}{7}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}驱动器选择}{9}{section.3.2}% 
-\contentsline {subsection}{\numberline {3.2.1}步进电机驱动}{9}{subsection.3.2.1}% 
-\contentsline {subsection}{\numberline {3.2.2}直流电机驱动}{9}{subsection.3.2.2}% 
-\contentsline {section}{\numberline {3.3}电源选择}{9}{section.3.3}% 
-\contentsline {subsection}{\numberline {3.3.1}供DM542驱动器}{9}{subsection.3.3.1}% 
-\contentsline {subsection}{\numberline {3.3.2}供DM542C驱动器}{10}{subsection.3.3.2}% 
-\contentsline {subsection}{\numberline {3.3.3}供L298N驱动器}{10}{subsection.3.3.3}% 
-\contentsline {section}{\numberline {3.4}传感器选择}{10}{section.3.4}% 
-\contentsline {section}{\numberline {3.5}控制板选择}{11}{section.3.5}% 
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}机械结构详细设计}{7}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}机械臂}{7}{section.3.1}% 
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}软件分析}{9}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}综述}{9}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}基于Matlab分析的骨架设计}{9}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}基于Ansys分析的蜗杆装配}{12}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}基于ROS环境的机械臂分析}{14}{section.4.4}% 
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}机电控制系统}{15}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}电机选型}{15}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}驱动器选择}{17}{section.5.2}% 
+\contentsline {subsection}{\numberline {5.2.1}步进电机驱动}{17}{subsection.5.2.1}% 
+\contentsline {subsection}{\numberline {5.2.2}直流电机驱动}{17}{subsection.5.2.2}% 
+\contentsline {section}{\numberline {5.3}电源选择}{17}{section.5.3}% 
+\contentsline {subsection}{\numberline {5.3.1}供DM542驱动器}{17}{subsection.5.3.1}% 
+\contentsline {subsection}{\numberline {5.3.2}供DM542C驱动器}{18}{subsection.5.3.2}% 
+\contentsline {subsection}{\numberline {5.3.3}供L298N驱动器}{18}{subsection.5.3.3}% 
+\contentsline {section}{\numberline {5.4}传感器选择}{18}{section.5.4}% 
+\contentsline {section}{\numberline {5.5}控制板选择}{19}{section.5.5}% 
