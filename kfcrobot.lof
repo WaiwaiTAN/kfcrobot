@@ -6,25 +6,41 @@
 \contentsline {figure}{\numberline {2--3}{\ignorespaces 机械臂运动流程图}}{5}{figure.caption.10}% 
 \contentsline {figure}{\numberline {2--4}{\ignorespaces 本装置的总工作流程图}}{5}{figure.caption.11}% 
 \addvspace {10.0pt}
+\contentsline {figure}{\numberline {3--1}{\ignorespaces 末端执行机构总览}}{7}{figure.caption.12}% 
+\contentsline {figure}{\numberline {3--2}{\ignorespaces 下部传动模块}}{8}{figure.caption.13}% 
+\contentsline {figure}{\numberline {3--3}{\ignorespaces 电机外接竖轴}}{9}{figure.caption.14}% 
+\contentsline {figure}{\numberline {3--4}{\ignorespaces 竖伞齿轮轴}}{9}{figure.caption.15}% 
+\contentsline {figure}{\numberline {3--5}{\ignorespaces 直齿轮}}{10}{figure.caption.16}% 
+\contentsline {figure}{\numberline {3--6}{\ignorespaces 上机架横板}}{10}{figure.caption.17}% 
+\contentsline {figure}{\numberline {3--7}{\ignorespaces 下机架横板}}{11}{figure.caption.18}% 
+\contentsline {figure}{\numberline {3--8}{\ignorespaces 换向夹取模块}}{11}{figure.caption.19}% 
+\contentsline {figure}{\numberline {3--9}{\ignorespaces switching}}{12}{figure.caption.20}% 
+\contentsline {figure}{\numberline {3--10}{\ignorespaces 五杆机构}}{12}{figure.caption.21}% 
+\contentsline {figure}{\numberline {3--11}{\ignorespaces 水平伞齿轮轴\relax }}{13}{figure.caption.22}% 
+\contentsline {figure}{\numberline {3--12}{\ignorespaces 伞齿轮}}{13}{figure.caption.23}% 
+\contentsline {figure}{\numberline {3--13}{\ignorespaces 五杆机构构件1和构件2\relax }}{14}{figure.caption.24}% 
+\contentsline {figure}{\numberline {3--14}{\ignorespaces 五杆机构构件3和构件4\relax }}{14}{figure.caption.25}% 
+\contentsline {figure}{\numberline {3--15}{\ignorespaces 机架竖板}}{15}{figure.caption.26}% 
+\contentsline {figure}{\numberline {3--16}{\ignorespaces 扭簧}}{15}{figure.caption.27}% 
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {4--1}{\ignorespaces matlab建模}}{10}{figure.caption.13}% 
-\contentsline {figure}{\numberline {4--2}{\ignorespaces Matlab输出扭矩}}{10}{figure.caption.14}% 
-\contentsline {figure}{\numberline {4--3}{\ignorespaces 不同长度三杆组合分析}}{11}{figure.caption.15}% 
-\contentsline {figure}{\numberline {4--4}{\ignorespaces 软件蜗杆的应力与扭矩}}{12}{figure.caption.16}% 
-\contentsline {figure}{\numberline {4--5}{\ignorespaces 改进前正应力}}{12}{figure.caption.17}% 
-\contentsline {figure}{\numberline {4--6}{\ignorespaces 正应力}}{13}{figure.caption.18}% 
-\contentsline {figure}{\numberline {4--7}{\ignorespaces 切应力}}{13}{figure.caption.19}% 
-\contentsline {figure}{\numberline {4--8}{\ignorespaces 拉伸位移}}{13}{figure.caption.20}% 
-\contentsline {figure}{\numberline {4--9}{\ignorespaces ROS环境搭建}}{14}{figure.caption.21}% 
+\contentsline {figure}{\numberline {4--1}{\ignorespaces matlab建模}}{18}{figure.caption.29}% 
+\contentsline {figure}{\numberline {4--2}{\ignorespaces Matlab输出扭矩}}{18}{figure.caption.30}% 
+\contentsline {figure}{\numberline {4--3}{\ignorespaces 不同长度三杆组合分析}}{19}{figure.caption.31}% 
+\contentsline {figure}{\numberline {4--4}{\ignorespaces 软件蜗杆的应力与扭矩}}{20}{figure.caption.32}% 
+\contentsline {figure}{\numberline {4--5}{\ignorespaces 改进前正应力}}{20}{figure.caption.33}% 
+\contentsline {figure}{\numberline {4--6}{\ignorespaces 正应力}}{21}{figure.caption.34}% 
+\contentsline {figure}{\numberline {4--7}{\ignorespaces 切应力}}{21}{figure.caption.35}% 
+\contentsline {figure}{\numberline {4--8}{\ignorespaces 拉伸位移}}{21}{figure.caption.36}% 
+\contentsline {figure}{\numberline {4--9}{\ignorespaces ROS环境搭建}}{22}{figure.caption.37}% 
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {5--1}{\ignorespaces 86步进电机}}{16}{figure.caption.22}% 
-\contentsline {figure}{\numberline {5--2}{\ignorespaces 42步进减速电机}}{16}{figure.caption.23}% 
-\contentsline {figure}{\numberline {5--3}{\ignorespaces 直流有刷电机}}{16}{figure.caption.24}% 
-\contentsline {figure}{\numberline {5--4}{\ignorespaces DM542}}{17}{figure.caption.25}% 
-\contentsline {figure}{\numberline {5--5}{\ignorespaces DM542C}}{17}{figure.caption.25}% 
-\contentsline {figure}{\numberline {5--6}{\ignorespaces L298N}}{17}{figure.caption.25}% 
-\contentsline {figure}{\numberline {5--7}{\ignorespaces 250W电源}}{17}{figure.caption.26}% 
-\contentsline {figure}{\numberline {5--8}{\ignorespaces 100W电源}}{18}{figure.caption.27}% 
-\contentsline {figure}{\numberline {5--9}{\ignorespaces 12V电源}}{18}{figure.caption.28}% 
-\contentsline {figure}{\numberline {5--10}{\ignorespaces 压力传感器}}{19}{figure.caption.29}% 
-\contentsline {figure}{\numberline {5--11}{\ignorespaces arduino UNO}}{19}{figure.caption.30}% 
+\contentsline {figure}{\numberline {5--1}{\ignorespaces 86步进电机}}{24}{figure.caption.38}% 
+\contentsline {figure}{\numberline {5--2}{\ignorespaces 42步进减速电机}}{24}{figure.caption.39}% 
+\contentsline {figure}{\numberline {5--3}{\ignorespaces 直流有刷电机}}{24}{figure.caption.40}% 
+\contentsline {figure}{\numberline {5--4}{\ignorespaces DM542}}{25}{figure.caption.41}% 
+\contentsline {figure}{\numberline {5--5}{\ignorespaces DM542C}}{25}{figure.caption.41}% 
+\contentsline {figure}{\numberline {5--6}{\ignorespaces L298N}}{25}{figure.caption.41}% 
+\contentsline {figure}{\numberline {5--7}{\ignorespaces 250W电源}}{25}{figure.caption.42}% 
+\contentsline {figure}{\numberline {5--8}{\ignorespaces 100W电源}}{26}{figure.caption.43}% 
+\contentsline {figure}{\numberline {5--9}{\ignorespaces 12V电源}}{26}{figure.caption.44}% 
+\contentsline {figure}{\numberline {5--10}{\ignorespaces 压力传感器}}{27}{figure.caption.45}% 
+\contentsline {figure}{\numberline {5--11}{\ignorespaces arduino UNO}}{27}{figure.caption.46}% 

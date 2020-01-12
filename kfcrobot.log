@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.10.6)  11 JAN 2020 15:12
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.10.6)  12 JAN 2020 11:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2226,6 +2226,13 @@ Package: xeCJK-listings 2019/04/07 v3.7.2 xeCJK patch file for listings
 ) (./kfcrobot.aux
 \c@pagesLTS.Alph.1.local.cnt=\count550
 \c@pagesLTS.Roman.1.local.cnt=\count551
+
+
+LaTeX Warning: Label `fig:bisubcaptionbox' multiply defined.
+
+
+LaTeX Warning: Label `fig:bisubcaptionbox' multiply defined.
+
 \c@pagesLTS.arabic.1.local.cnt=\count552
 )
 \openout1 = `kfcrobot.aux'.
@@ -2478,29 +2485,30 @@ File: sjtu-logo.pdf Graphic file (type pdf)
 
 ] [4
 
-] (./kfcrobot.toc)
+] (./kfcrobot.toc
+File: sjtu-logo.pdf Graphic file (type pdf)
+<use sjtu-logo.pdf>
+ [5
+
+])
 \tf@toc=\write6
 \openout6 = `kfcrobot.toc'.
 
 File: sjtu-logo.pdf Graphic file (type pdf)
 <use sjtu-logo.pdf>
- [5
-
-]
-File: sjtu-logo.pdf Graphic file (type pdf)
-<use sjtu-logo.pdf>
- [6] (./kfcrobot.lof)
-\tf@lof=\write7
-\openout7 = `kfcrobot.lof'.
-
+ [6] (./kfcrobot.lof
 File: sjtu-logo.pdf Graphic file (type pdf)
 <use sjtu-logo.pdf>
  [7
 
 
-] [8
+])
+\tf@lof=\write7
+\openout7 = `kfcrobot.lof'.
 
-] (./kfcrobot.lot)
+File: sjtu-logo.pdf Graphic file (type pdf)
+<use sjtu-logo.pdf>
+ [8] (./kfcrobot.lot)
 \tf@lot=\write8
 \openout8 = `kfcrobot.lot'.
 
@@ -2508,6 +2516,7 @@ File: sjtu-logo.pdf Graphic file (type pdf)
 File: sjtu-logo.pdf Graphic file (type pdf)
 <use sjtu-logo.pdf>
  [9
+
 
 ] [10
 
@@ -2593,10 +2602,119 @@ File: sjtu-logo.pdf Graphic file (type pdf)
 
 ]
 第三章
-) (./tex/software_analysising.tex
+) (./tex/adaptive_end_effector.tex
+File: figure/Overview_of_end_effectors.png Graphic file (type bmp)
+<figure/Overview_of_end_effectors.png>
+File: figure/Lower_transmission_module.png Graphic file (type bmp)
+<figure/Lower_transmission_module.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--42
+
+ []
+
 File: sjtu-logo.pdf Graphic file (type pdf)
 <use sjtu-logo.pdf>
- [7] [8
+[7]
+File: figure/Motor_external_vertical_shaft.png Graphic file (type bmp)
+<figure/Motor_external_vertical_shaft.png>
+File: figure/Shaft_gear_shaft.png Graphic file (type bmp)
+<figure/Shaft_gear_shaft.png>
+File: figure/Spur_gear.png Graphic file (type bmp)
+<figure/Spur_gear.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--92
+
+ []
+
+File: figure/Upper_rack_horizontal_plate.png Graphic file (type bmp)
+<figure/Upper_rack_horizontal_plate.png>
+File: sjtu-logo.pdf Graphic file (type pdf)
+<use sjtu-logo.pdf>
+[8]
+File: sjtu-logo.pdf Graphic file (type pdf)
+<use sjtu-logo.pdf>
+ [9]
+Underfull \hbox (badness 10000) in paragraph at lines 102--106
+
+ []
+
+File: figure/Under_rack_cross_plate.png Graphic file (type bmp)
+<figure/Under_rack_cross_plate.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--123
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--123
+
+ []
+
+File: figure/Reversing_clamping_module.png Graphic file (type bmp)
+<figure/Reversing_clamping_module.png>
+File: figure/switching.png Graphic file (type bmp)
+<figure/switching.png>
+File: sjtu-logo.pdf Graphic file (type pdf)
+<use sjtu-logo.pdf>
+[10]
+File: sjtu-logo.pdf Graphic file (type pdf)
+<use sjtu-logo.pdf>
+ [11]
+File: figure/Five-bar_mechanism.png Graphic file (type bmp)
+<figure/Five-bar_mechanism.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: sjtu-logo.pdf Graphic file (type pdf)
+<use sjtu-logo.pdf>
+ [12]
+File: figure/Horizontal_bevel_gear_shaft_1.png Graphic file (type bmp)
+<figure/Horizontal_bevel_gear_shaft_1.png>
+File: figure/Horizontal_bevel_gear_shaft_2.png Graphic file (type bmp)
+<figure/Horizontal_bevel_gear_shaft_2.png>
+File: figure/Bevel_gear.JPG Graphic file (type bmp)
+<figure/Bevel_gear.JPG>
+File: sjtu-logo.pdf Graphic file (type pdf)
+<use sjtu-logo.pdf>
+ [13]
+File: figure/Five-bar_mechanism_component_1.png Graphic file (type bmp)
+<figure/Five-bar_mechanism_component_1.png>
+
+Overfull \hbox (37.3145pt too wide) in paragraph at lines 211--211
+ [][] 
+ []
+
+File: figure/Five-bar_mechanism_component_2.png Graphic file (type bmp)
+<figure/Five-bar_mechanism_component_2.png>
+File: figure/Five-bar_mechanism_component_3.png Graphic file (type bmp)
+<figure/Five-bar_mechanism_component_3.png>
+File: figure/Five-bar_mechanism_component_4.png Graphic file (type bmp)
+<figure/Five-bar_mechanism_component_4.png>
+File: figure/Rack_riser.png Graphic file (type bmp)
+<figure/Rack_riser.png>
+File: figure/Torsion_spring.JPG Graphic file (type bmp)
+<figure/Torsion_spring.JPG>
+File: sjtu-logo.pdf Graphic file (type pdf)
+<use sjtu-logo.pdf>
+[14]) (./tex/software_analysising.tex
+File: sjtu-logo.pdf Graphic file (type pdf)
+<use sjtu-logo.pdf>
+ [15] [16
 
 ]
 第四章
@@ -2636,13 +2754,13 @@ File: figure/analysis_of_three-par_combinations_of_different_lengths.jpg Graphic
 <figure/analysis_of_three-par_combinations_of_different_lengths.jpg>
 File: sjtu-logo.pdf Graphic file (type pdf)
 <use sjtu-logo.pdf>
-[9]
+[17]
 File: sjtu-logo.pdf Graphic file (type pdf)
 <use sjtu-logo.pdf>
- [10]
+ [18]
 File: sjtu-logo.pdf Graphic file (type pdf)
 <use sjtu-logo.pdf>
- [11]
+ [19]
 File: figure/stress_and_torque_of_worm.png Graphic file (type bmp)
 <figure/stress_and_torque_of_worm.png>
 File: figure/normal_stress_before_improvement.png Graphic file (type bmp)
@@ -2655,16 +2773,16 @@ File: figure/tensile_displacement.png Graphic file (type bmp)
 <figure/tensile_displacement.png>
 File: sjtu-logo.pdf Graphic file (type pdf)
 <use sjtu-logo.pdf>
- [12]
+ [20]
 File: sjtu-logo.pdf Graphic file (type pdf)
 <use sjtu-logo.pdf>
- [13]
+ [21]
 File: figure/ros_environment_setup.jpg Graphic file (type bmp)
 <figure/ros_environment_setup.jpg>
 ) (./tex/control.tex
 File: sjtu-logo.pdf Graphic file (type pdf)
 <use sjtu-logo.pdf>
- [14]
+ [22]
 第五章
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--16
@@ -2701,7 +2819,7 @@ File: figure/stepmotor42.png Graphic file (type bmp)
 <figure/stepmotor42.png>
 File: sjtu-logo.pdf Graphic file (type pdf)
 <use sjtu-logo.pdf>
-[15
+[23
 
 ]
 File: figure/arduino.png Graphic file (type bmp)
@@ -2713,7 +2831,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
 File: sjtu-logo.pdf Graphic file (type pdf)
 <use sjtu-logo.pdf>
-[16]
+[24]
 Overfull \hbox (3402.0574pt too wide) in paragraph at lines 99--108
 []\TU/SimSun(1)/m/n/10.53937 具 体 参 数：| [] 
  []
@@ -2753,7 +2871,7 @@ File: figure/powersource250w.png Graphic file (type bmp)
 <figure/powersource250w.png>
 File: sjtu-logo.pdf Graphic file (type pdf)
 <use sjtu-logo.pdf>
-[17]
+[25]
 File: figure/powersource100.png Graphic file (type bmp)
 <figure/powersource100.png>
 File: figure/powersource12v.png Graphic file (type bmp)
@@ -2764,16 +2882,16 @@ File: figure/arduino.png Graphic file (type bmp)
 <figure/arduino.png>
 File: sjtu-logo.pdf Graphic file (type pdf)
 <use sjtu-logo.pdf>
- [18]) 
+ [26]) 
 AED: pageslts setting LastPage 
 File: sjtu-logo.pdf Graphic file (type pdf)
 <use sjtu-logo.pdf>
-[19]
+[27]
 \tf@thm=\write9
 \openout9 = `kfcrobot.thm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 31.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 31.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 32.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 32.
 \c@pagesLTS.arabic.1.local.count=\count566
  
 AED: pageslts setting VeryLastPage via AfterLastShipout 
@@ -2785,13 +2903,22 @@ Package pageslts Info: Total number of pages is odd.
 
 
 (./kfcrobot.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 31.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 31.
-Package rerunfilecheck Info: File `kfcrobot.out' has not changed.
-(rerunfilecheck)             Checksum: 4EF9C5B610A8BB46676A77DD4B8C0759.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 32.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 32.
 
+
+Package rerunfilecheck Warning: File `kfcrobot.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `kfcrobot.out':
+(rerunfilecheck)             Before: 2AC6E392EC0F71F1153A62E71EB02128
+(rerunfilecheck)             After:  A453343FC4D2F71AC0350707C5BDF975.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
 Package logreq Info: Writing requests to 'kfcrobot.run.xml'.
 \openout1 = `kfcrobot.run.xml'.
@@ -2803,12 +2930,12 @@ Package logreq Info: Writing requests to 'kfcrobot.run.xml'.
 ### simple group (level 1) entered at line 60 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 57858 strings out of 492922
- 1162755 string characters out of 6136751
- 1772792 words of memory out of 5000000
- 60934 multiletter control sequences out of 15000+600000
+ 57993 strings out of 492922
+ 1167979 string characters out of 6136751
+ 1773403 words of memory out of 5000000
+ 61046 multiletter control sequences out of 15000+600000
  537579 words of font info for 161 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  75i,16n,111p,872b,2766s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on kfcrobot.pdf (33 pages).
+Output written on kfcrobot.pdf (41 pages).
