@@ -10,77 +10,7 @@
   {\songti 在整个项目的设计与之后的装配分析中，我们均学习探索并使用了一些软件进行辅助性分析，
  这对于我们进行相关的材料选择、整体设计、寿命分析以及装配的整体合理性都有了很大的帮助。}
 
-\section{基于Matlab分析的骨架设计}
-
-  {\songti 在最开始的设计中，我们需要初步探索出最合适的大致臂长，以满足我们对于三个臂长
-  的设计需求。对此，我们采用了数学软件Matlab进行了建模分析。}
-
-  {\songti 首先，我们通过实地探访肯德基的各种产品，通过食品称、直尺获得了我们所需要
-  夹取的食品的长、宽、高、内径、外径以及重量等参数。在各个数据中我们选取了最大重量的
-  食物——可乐，作为我们的目标载荷。}
-
-  {\begin{table}
-    \centering
-    \caption{KFC食物实地调研结果}
-    \begin{tabular}{|l|l|l|l|l|}
-    \hline
-    
-    食物 & 重量（g） & 长（cm） & 宽（cm） & 高（cm） \\ \hline
-    黄金鸡块 & 100.5 & 12 & 7.2 & 4.2 \\ \hline
-    薯条 & 80.5 & 5 & 4.5 & 5.1 \\ \hline
-    鸡腿堡 & 202.5 & 11 & 11 & 6.8 \\ \hline
-    蛋挞 & 60 & 6.5 & 3.8 & 2.8 \\ \hline
-    可乐 & 460 & 8.8 & 6 & 13 \\ \hline
-    
-  \end{tabular}
-  \end{table} }
-
-  {\songti 对于三杆机械臂，我们进行了如图所示的建模，如图~\ref{fig:matlab建模} 所示。
-  我们分别对基座和连杆的铰链和各个壁进行了分别编号和建系，并在末端加载可乐的重量作为
-  负载，以及加入初步估计的连杆的重量以及电机的重量，连杆的重量由设计的体积、45号钢的密度
-  由公式}
-
-  \begin{equation}
-    G= \rho Alg
-  \end{equation}
-
-  \begin{equation}
-    \Sigma M=\Sigma Fl
-  \end{equation}
-  
-  {\songti 可以计算出每个铰链所受弯矩的大小。}
-
-
-
-  {\songti 之后，便可以在Matlab软件中对此三杆机构进行模拟建模，并输出Gif动图实时显示
-  出在杆移动的过程中A、B、C三点的扭矩，如图~\ref{fig:Matlab输出扭矩} 所示。之后再在
-  合理的结构条件下对三个杆的长度进行不断调整组合，从而得到在保证满足夹取条件的前提下（
-  如图~\ref{fig:Matlab输出扭矩} 所示）获得尽可能地获取扭矩小的三杆长度组合。}
-
-  {\songti 最终我们通过不断实验初步确定，通过Matlab计算得到当三杆长度分别为45cm、40cm
-  、10cm的时候可以在最大移动范围（基座360°旋转的情况下）140cm左右承受扭矩的最大值为45$N\cdot{m}$ 。
-
-  \begin{figure}[!htp]
-    \centering
-    \includegraphics[width=15cm]{matlab_modeling.png}
-    \bicaption[matlab建模]{matlab建模}{Matlab modeling}
-    \label{fig:matlab建模}
-  \end{figure}
-
-  \begin{figure}[!htp]
-    \centering
-    \includegraphics[width=12cm]{matlab_output_torque.jpg}
-    \bicaption[Matlab输出扭矩]{Matlab输出扭矩}{Matlab torque outputing}
-    \label{fig:Matlab输出扭矩}
-  \end{figure}
-
-  \begin{figure}[!htp]
-    \centering
-    \includegraphics[width=12cm]{analysis_of_three-par_combinations_of_different_lengths.jpg}
-    \bicaption[不同长度三杆组合分析]{不同长度三杆组合分析}{Analysis of three bar combination with different length}
-    \label{fig:不同长度三杆组合分析}
-  \end{figure}
-
+ 
 
 \section{基于Ansys分析的蜗杆装配}
 

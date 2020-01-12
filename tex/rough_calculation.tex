@@ -1,0 +1,50 @@
+    %  本文档是从赵启编写的‘软件分析’章节剥离出来的，由于本部分的计算直接决定了我们的设计尺寸，所以抽离出来放在‘机构设计’章节
+    %  原作者：赵启   
+    %  谭正与2020年1月12日11点44分修改
+
+    \subsection{粗略计算}
+
+    首先我们需要确定好三个臂的长度和扭矩的大致要求。
+
+    对于四轴机器人，云台轴落在地上，扭矩要求主要受到转动惯量的影响，不需要克服自重，因此我们考虑机械臂其他位置所需要的扭矩的时候选取了过机械臂的一竖直平面对其进行分分析，得到如图\ref{fig:robot_motion}所示的运动简图。
+    由此可以计算其末端距离原点的水平距离$r$，竖直距离$y$，以及末端俯仰角$\theta$和输入各个结点角度$\theta_{1}, \theta_{21}, \theta_{32}$的之间的关系由公式~\ref{eq:output}确定。
+
+    \begin{figure}[!htp]
+        \centering
+        \resizebox{\textwidth}{!}{\input{figure/mechanism_model.tex}}
+        \bicaption[机械臂运动简图]{机械臂运动简图}{Robot arm motion diagram}
+        \label{fig:robot_motion}
+    \end{figure}
+
+    \begin{equation}
+    \label{eq:output}
+    \begin{bmatrix}
+    r_o \\
+    y_o \\ 
+    \theta_3
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+    l_1 \cos{\theta_1} + l_2 \cos(\theta_1 +\theta_{21}) + l_3 \cos(\theta_1 + \theta_{21} + \theta_{32}) \\
+    l_1 \sin{\theta_1} + l_2 \sin(\theta_1 + \theta_{21}) + l_3 \sin(\theta_1 +\theta_{21} + \theta_{32}) \\
+    \theta_1 + \theta_{21} + \theta_{32}
+    \end{bmatrix}
+    \end{equation}
+
+    假定杆件材料使用铝型材柱状杆件，其重量可由公式~\ref{eq:gravity}确定，再加上末端的负载重量和每个结点上的电机重量。
+    根据静力学平衡条件\ref{eq:static equilibrium}，在预先假设了杆件长度的前提下，可以计算出机构在任意姿态下的各个结点的扭矩。
+    我们选取夹取汉堡时的运动规律（末端俯仰角为$-\frac{pi}{2}$）和夹取饮料时的运动规律（末端俯仰角为$0$），分别计算机构每一时刻每一结点所受到的扭矩，最后输出最大扭矩。
+
+    \begin{equation}
+        \label{eq:gravity}
+        G= \rho Alg
+    \end{equation}
+
+    \begin{equation}
+        \label{eq:static equilibrium}
+        \Sigma M=\Sigma Fl
+    \end{equation}
+
+    选用不同的杆件长度进行计算，可以初步选择杆件长度。当然，老师的建议我们也有听取，选择了那智不二越MZ07六轴机器人的尺寸比例进行参考，
+    最终选择了$l_1 = 220, l_2 = 300, l_3 = 280$（单位：毫米）的组合进行设计。
+    按照这个组合，根据上述计算方法，我们得到$A,B,C$三个结点克服重力所需要提供的扭矩分别为$50 N\cdot M, 35 N\cdot M, 25 N\cdot M$

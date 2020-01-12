@@ -1,0 +1,67 @@
+\tikzstyle{block} = [draw, fill=blue!20, rectangle, 
+    minimum height=3em, minimum width=6em]
+\tikzstyle{sum} = [draw, fill=blue!20, circle, node distance=1cm]
+\tikzstyle{input} = [coordinate]
+\tikzstyle{output} = [coordinate]
+\tikzstyle{pinstyle} = [pin edge={to-,thin,black}]
+\tikzstyle{joint} = [draw, fill=white, circle, node distance=1cm]
+\tikzstyle{load}   = [ultra thick,-latex]
+\tikzstyle{stress} = [-latex]
+\tikzstyle{dim}    = [latex-latex]
+\tikzstyle{axis_ab}   = [-latex,blue!55,ultra thick]
+\tikzstyle{axis}   = [-latex,red!55,ultra thick]
+
+
+\begin{tikzpicture}[auto, node distance=2cm,>=latex']
+    %画个机架在0,0
+    \node (origin) at (0,0) {};
+    \node (ac) at (-0.5, 0) {$A$};
+    \draw [-] (0,0) -- (0.375,-0.5) {};
+    \draw [-] (0,0) -- (-0.375,-0.5) {};
+    \draw [-] (0.375,-0.5) -- (-0.375,-0.5) {};
+    
+    \draw [dim] (-0.4, 0.3) -- (1.4, 2.7) node[midway,above] {$l_1$};
+    \draw [-] (0,0) -- (-0.6, 0.45) {};
+    \draw [-] (1.8, 2.4) -- (1.2, 2.85) {};
+    
+    \draw [dim] (4.34, 2.18) -- (1.94, 2.88) node[midway, above] {$l_2$};
+    \draw [-] (1.8, 2.4) -- (2.01, 3.12) {};
+    \draw [-] (4.2, 1.7) -- (4.41, 2.42) {};
+    
+    \draw [dim] (4.7, 1.7) -- (4.7, 0) node[midway, right] {$l_3$};
+    \draw [-] (4.95, 1.7) -- (4.2, 1.7) {};
+    \draw [-] (4.95, 0) -- (4.2, 0) {};
+    
+    \node [joint] (B) at (1.8, 2.4) {};
+    \node (bc) at (1.8, 2.9) {$B$};
+    \draw [-] (origin) -- (B) {};
+
+    \node [joint] (C) at (4.2, 1.7) {};
+    \node (cc) at (3.9, 1.2) {$C$};
+    \draw [-] (B) -- (C) {};
+    
+    \node (D) at (4.2, 0) {};
+    \draw [-] (C) -- (D) {};
+    
+    \draw [fill=white] (origin) circle (0.2);
+    
+    \draw [axis_ab] (0,0) -- (1,0) node[right] {$r$};
+    \draw [axis_ab] (0,0) -- (0,1) node[right] {$y$};
+    
+    \draw [axis] (0,0) -- (0.6, 0.8) node[right] {$r_1$};
+    \draw [axis] (0,0) -- (-0.8, 0.6) node[right] {$y_1$};
+    
+    \draw [axis] (1.8, 2.4) -- (2.76, 2.12) node[right] {$r_2$};
+    \draw [axis] (1.8, 2.4) -- (2.08, 3.36) node[right] {$y_2$};
+    
+    \draw [axis] (4.2, 1.7) -- (4.2, 0.7) node[right] {$r_3$};
+    \draw [axis] (4.2, 1.7) -- (5.2, 1.7) node[right] {$y_3$};
+    
+    \draw [-, dashed] (1.8, 2.4) -- (2.4, 3.2) {};
+    \draw [-, dashed] (4.2, 1.7) -- (5.16, 1.42) {}; 
+    
+    \draw (0.5,0) arc(0:53:0.5) node[midway,right] {$\theta_1$};
+    \draw (2.28, 2.26) arc (-16:53:0.5) node[midway, right] {$\theta_{21}$};
+    \draw (4.2, 1.35) arc (-90:-16:0.35);
+    \node (p) at (4.7, 1.3) {$\theta_{32}$};
+\end{tikzpicture}
