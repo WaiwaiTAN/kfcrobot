@@ -83,7 +83,7 @@
       <file>kfcrobot.bcf</file>
     </requires>
     <requires type="editable">
-      <file>bib/thesis.bib</file>
+      <file>bib/kfcrobot.bib</file>
     </requires>
   </external>
 </requests>

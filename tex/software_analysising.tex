@@ -12,62 +12,6 @@
 
  
 
-\section{基于Ansys分析的蜗杆装配}
-
-  {\songti 在实体装配的过程中，我们通过定性分析可知，基座上的蜗杆
-  处于较下方的位置且其上装配有最多的轴承支座并和涡轮相啮合，
-  因此会承受很大的应力并产生切变。出于对装配体的
-  寿命和安全性的考虑，为了探究其切应力和正应力是否超过其屈服强度和切应力的许用值，我们
-  利用Ansys进行有限元辅助分析。}
-  
-  {\songti 在Ansys中，我们根据装配体的结构情况,进行前处理、输入蜗杆的几何模型、对几何
-  模型划分网格、根据装配体的实际情况施加载荷（图~\ref{fig:蜗杆的应力与扭矩}），求解后进行输出应力应变云图。}
-
-  {\songti 在一开始我们设计的装配体中，蜗杆中央受到了极大的正应力，中间一部分超过了45号钢的屈服强度，因此极大地影响
-  了蜗杆的工作和使用寿命（图~\ref{fig:改进前正应力}）。之后，我们对上方装配体进行了一系列改进优化，如机械手部分尽可能
-  采用3D打印结构并对其结构进行优化，并增加了支座分担蜗杆的应力，最终获得了较为理想的输出
-  结果（图~\ref{fig:正应力}）（图~\ref{fig:切应力}）（图~\ref{fig:拉伸位移}）} 。
-   
-  {\songti 由云图可以看出，改进后正应力极大降低，切应力也满足45号钢的许用值（除了极其微小的一部分稍微超过之外)，能够满足蜗杆的安全工作条件。}
- 
-   
-
-  \begin{figure}[!htp]
-    \centering
-    \includegraphics[width=12cm]{stress_and_torque_of_worm.png}
-    \bicaption[软件蜗杆的应力与扭矩]{蜗杆的应力与扭矩}{Stress and torque of worm}
-    \label{fig:蜗杆的应力与扭矩}
-  \end{figure}
-
-  
-  \begin{figure}[!htp]
-    \centering
-    \includegraphics[width=12cm]{normal_stress_before_improvement.png}
-    \bicaption[改进前正应力]{改进前正应力}{Normal stress before improvement}
-    \label{fig:改进前正应力}
-  \end{figure}
-
-  
-  \begin{figure}[!htp]
-    \centering
-    \includegraphics[width=12cm]{normal_stress.jpg}
-    \bicaption[正应力]{正应力}{Normal stress}
-    \label{fig:正应力}
-  \end{figure}
-
-  \begin{figure}[!htp]
-    \centering
-    \includegraphics[width=12cm]{shear_stress.png}
-    \bicaption[切应力]{切应力}{Shear stress}
-    \label{fig:切应力}
-  \end{figure}
-
-  \begin{figure}[!htp]
-    \centering
-    \includegraphics[width=12cm]{tensile_displacement.png}
-    \bicaption[拉伸位移]{拉伸位移}{Tensile displacement}
-    \label{fig:拉伸位移}
-  \end{figure}
 
   \newpage
 

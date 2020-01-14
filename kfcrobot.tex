@@ -1,16 +1,16 @@
-\documentclass[degree=course, twoside, openright]{sjtuthesis}
+\documentclass[degree=course, language=chinese, openright, twoside]{sjtuthesis}
 \usepackage{sjtuthesis}
 \usepackage{wrapfig}
 \graphicspath{{figure/}}
 \DeclareGraphicsExtensions{.pdf,.eps,.png,.jpg,.jpeg}
-\addbibresource{bib/thesis.bib}
-\input{tex/info}
+\addbibresource{bib/kfcrobot.bib}
+\input{tex/info.tex}
 \begin{document}
     \maketitle
 
     \frontmatter
     
-    \input{tex/abstract}
+    \input{tex/abstract.tex}
 
     \tableofcontents
     \listoffigures
@@ -24,8 +24,13 @@
     \input{tex/intro.tex}
     \input{tex/functional_decomposition.tex}
     \input{tex/design.tex}
-    % \input{tex/software_analysising.tex}
+    \input{tex/machining_assembly.tex}
     \input{tex/control.tex}
+    \input{tex/summary.tex}
+
+    \printbibliography[heading=bibintoc]
+    \input{tex/acknowledgements.tex}
     \appendix
     % TODO:附录
+    \input{tex/expenditure_statistics.tex}
 \end{document}

@@ -1,5 +1,5 @@
 % 文件描述：这是机械结构详细设计章节中的自适应末端夹取机构部分
-% 作者：耿梓行
+% 作者：耿梓航
 % 上次更新：1.12.11
 
 
@@ -276,7 +276,110 @@
 
 \subsection{强度校核}
 
+\subsubsection{伞齿轮校核}
+根据直齿锥齿轮的传动条件，需要进行接触疲劳强度校核以及齿根弯曲疲劳强度校核。
+
+\begin{enumerate}
+\item 齿面接触疲劳强度
+
+齿面接触疲劳强度按照下式校核：
+
+\begin{center}
+$\sigma_{H}=2.5Z_{E}\sqrt{\frac{4KT_{1}}{0.85\Phi_{R}(1-0.5\Phi_{R})^{2}(d_{1})^{3}u}}\le[\sigma_{H}]$
+\end{center}
+
+其中$Z_{E}$为弹性系数，与材料有关，伞齿轮材料为45号钢，查阅资料的弹性模量E为210GPa，泊松比µ为0.31，
+根据公式
+\begin{center}
+$Z_{E}=\sqrt{\frac{1}{π(\frac{1-\mu_{1}^{2}}{E_{1}}+\frac{1-\mu_{2}^{2}}{E_{2}})}}$
+\end{center}
+
+代入数据$\mu_{1}=\mu_{2}=0.31$,$E_{1}=E_{2}=210000MPa$,则$Z_{E}=192.29\sqrt{MPa}$。载荷较稳定，故K取1；齿宽系数
+
+\begin{center}
+$\Phi_{R}=\frac{b}{R_{e}}$
+\end{center}
+
+代入数据$b=6.8mm$，$R_{e}=21.21mm$,则$\Phi_{R}=0.32$;齿轮分度圆直径$d_{1}=32.12mm$;传动比$u=1$。
+夹取物体时，手部的直流电机轴输出的扭矩约为$0.2N \cdot m$，此时经过计算，每个伞齿轮传递的扭矩$T_{1}=0.1N \cdot m$。
+将以上数据带入接触疲劳强度计算公式中得
+
+\begin{center}
+  $\sigma_{H}=120.56MPa\le[\sigma_{H}]=\frac{\sigma_{Hlim}}{S_{H}}=\frac{1120}{1.5}=746.7MPa$
+\end{center}
+则接触疲劳强度足够。
+
+\item 齿根弯曲疲劳强度
+
+齿根弯曲疲劳强度按照下式校核：
+
+\begin{center}
+$\sigma_{F}=\frac{4KT_{1}Y_{Fa}Y_{Sa}}{0.85\Phi_{R}(1-0.5\Phi_{R})^{2}z_{1}^{2}m^{3}\sqrt{1+u^{2}}}\le[\sigma_{F}]$
+\end{center}
+
+上式中大端模数$m=1.5mm$，由$z_{1}=20$得当量齿数为
+
+\begin{center}
+ $z_{v}=\frac{z}{\cos(\delta)}=\frac{20}{\cos(\frac{\pi}{4})}=28.28$，
+\end{center}
+
+查阅齿型修正系数图表可得$Y_{Fa}=2.65$，$Y_{Sa}=1.62$，其余数据和接触强度校核计算式中数据相同。代入可得
+
+\begin{center}
+  $\sigma_{F}=4.69KPa\le[\sigma_{F}]=\frac{\sigma_{FE}}{S_{F}}=\frac{680}{2}=340MPa$
+\end{center}
+\end{enumerate}
+
+综上，可以发现伞齿轮的接触强度和弯曲疲劳强度完全符合要求。事实上，因为传递的扭矩非常小，可以用塑料或3D打印的材料来代替，因为设计初期并未进行严格的强度计算，并且现行市场上金属制的齿轮更好买到，所以直接在淘宝上购买了伞齿轮。
+
+\subsubsection{直齿轮校核}
+\begin{enumerate}
+  \item 齿面接触疲劳强度
+
+  直齿轮齿面接触强度校核公式为
+
+  \begin{center}
+    $\sigma_{H}=2.5Z_{E}\sqrt{\frac{2KT_{1}(u+1)}{bd_{1}^{2}u}}\le[\sigma_{H}]$
+  \end{center}
+
+  三个直齿轮中，电机外接轴上的齿轮传递的扭矩最大为$0.2N \cdot m$，齿宽$b=30mm$,分度圆$d_{1}=36mm$，其余数据和上节相同，带入得
+
+  \begin{center}
+    $\sigma_{H}=2.18MPa\le[\sigma_{H}]=746.7MPa$
+  \end{center}
+  接触强度足够。
+
+\item 轮齿弯曲强度
+
+齿根弯曲疲劳强度的校核公式：
+
+\begin{center}
+  $\sigma_{F}=\frac{2KT_{1}Y_{Fa}Y_{Sa}}{bm^{2}z_{1}}\le[\sigma_{F}]$
+\end{center}
+
+  上式中$z_{1}=12$，$m=3mm$，$b=30mm$，查阅齿型修正系数图表可得$Y_{Fa}=3.65$，$Y_{Sa}=1.45$ $T_{1}=0.2N \cdot m$，带入计算满足公式，轮齿弯曲强度满足要求。
+
+\end{enumerate}
 
 \subsubsection{轴校核}
-\subsubsection{直齿轮校核}
-\subsubsection{伞齿轮校核}
+
+对电机外接轴而言电机外接轴的重量约为0.07kg，直齿轮的重量为0.3kg，根据材料力学知识分析，当轴和水平面夹角约为
+45度时，轴中弯矩最大，约为$0.05N \cdot m$。电机外接轴上传递的扭矩为$0.2N \cdot m$。
+
+
+根据弯扭合成强度计算公式
+
+\begin{center}
+  $\sigma_{e}=\frac{M_{e}}{W}=\frac{\sqrt{M^{2}+(\alpha*T)^{2}}}{0.1d^{3}}\leq[\sigma_{-1b}]$
+\end{center}
+
+代入数据，由于该轴频繁正反转，受对称循环应力，故取折合系数$\alpha=1$
+
+\begin{center}
+  $\sigma_{e}=5KPa\leq[\sigma_{-1b}]=55MPa$
+\end{center}
+
+强度符合要求。
+
+对于竖伞齿轮轴，分析过程与电机外伸轴相同，只是重量略大，但所受的扭矩为$0.1N \cdot m$，只是电机外接轴的一半，
+因此计算强度也符合要求。
